@@ -11,7 +11,7 @@ function arrayOfProducts(array) {
     
     let leftRunningProduct = 1;
     for(let i = 0; i<array.length; i++) {
-        products[i] *= leftRunningProduct;
+        products[i] *= leftRunningProduct; 
         leftRunningProduct *= array[i] 
     }
     let rightRunningProduct = 1;
